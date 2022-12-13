@@ -1,34 +1,21 @@
+@import "media";
+@import "fuentes";
+@import "operaciones";
+
 ul li {
     list-style-type: none;
 }
 
 
-header {
-    background-color: #00aeff;
-}
-
 li {
     display: inline-block;
 }
 
-a {
-    color: rgb(4, 54, 94);
+.navbar {
     text-decoration: none;
     font-size: 30px;
     font-weight: 800;
 }
-
-footer {
-    text-align: center;
-    border: 20px solid #CBD0D5;
-    background-color: #00aeff;
-    letter-spacing: 8px;
-}
-
-body {
-    background-color: #00aeff;
-}
-
 
 p {
     padding: 20;
@@ -44,130 +31,7 @@ ul li {
 }
 
 
-.contacto {
-    background-color: #00aeff;
-    margin: 20px;
-}
-
-
-
-
-
-/* 500 px en ADELANTE */
-@media(min-width:500px) {
-    img {
-        width: 286px;
-        height: 286px;
-    }
-    img.pequeña{
-        width: 48px;
-        height: 48px;
-    }
-
-    img.grande{
-        width: 500px;
-    }
-
-    footer {
-        margin-top: 0;
-    }
-    img.friday{
-        width: 500px;
-        height: 100px;
-    }
-
-    img.mediana{
-        width: 286px;
-        height: 100px;
-    }
-}
-
-/* 768 en adelante */
-
-@media (min-width:768px) {
-    img {
-        width: 286px;
-        height: 286px;
-    }
-    img.pequeña{
-        width: 48px;
-        height: 48px;
-    }
-
-    img.mediana{
-        width: 286px;
-        height: 100px;
-    }
-
-    img.grande{
-        width: 768px;
-    }
-
-    img.friday{
-        width: 768px;
-        height: 100px;
-    }
-
-    footer {
-        margin-top: 1.5em;
-    }
-}
-
-/* 1024 en adelante */
-
-@media (min-width:1024px) {
-
-    img {
-        width: 325px;
-        height: 300px;
-    }
-    img.pequeña{
-        width: 48px;
-        height: 48px;
-    }
-
-    img.mediana{
-        width: 200px;
-        height: 100px;
-    }
-
-    img.grande{
-        width: 1024px;
-        height: 300px;
-    }
-    img.friday{
-        width: 1024px;
-        height: 100px;
-    }
-}
-
-/* Medida agregada por temas de mi monitor */
-@media (min-width:1920px) {
-    img.grande{
-        width: 1920px;
-    }
-
-    img.friday{
-        width: 1920px;
-        height: 100px;
-    }
-}
-
-.bg{
-    background-color: #00aeff;
-}
-
-.navbar{
-    background-color: white;
-}
-
-.row{
-    margin-left: calc(var(--bs-gutter-x) * 4);
-}
-
-
 .box{
-    background-color: #CBD0D5;
     transition-property: all;
     transition-duration: 1s;
 }
@@ -178,4 +42,9 @@ ul li {
 
 .mediana{
     border: 0;
+}
+
+.display-1{
+    font-size: 0%;
+    margin-bottom: 0%;
 }

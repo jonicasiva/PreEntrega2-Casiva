@@ -1,0 +1,55 @@
+$ventas:PCS;
+
+p{
+    @if $ventas == licencias{
+        color: red;
+    }
+    @else if $ventas == giftcards{
+        color: green;
+    }
+    @else{
+        color: black;
+    }
+}
+
+
+.cajas{
+    background-color: red;
+    border: 40px solid black;
+}
+
+.cajas--contacto{
+    @extend .cajas;
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.mediana{
+    @include sizes (50px, 400px);
+}
+
+.icon{
+    @include sizes (16px, 16px);
+}
+
+.map{
+    @include sizes (250px, 200px)
+}
+
+$largo:1000px;
+$ancho:1000px;
+$grey: #CBD0D5;
+$green: green;
+
+.box{
+    background-color: $grey;
+    width:$ancho/2.5;
+    height:$largo/2;
+}

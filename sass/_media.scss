@@ -1,0 +1,101 @@
+/* 500 px en ADELANTE */
+@media(min-width:500px) {
+    img {
+        width: 286px;
+        height: 286px;
+    }
+    img.pequeña{
+        width: 48px;
+        height: 48px;
+    }
+
+    img.grande{
+        width: 500px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+    img.friday{
+        width: 500px;
+        height: 100px;
+    }
+
+    img.mediana{
+        width: 286px;
+        height: 100px;
+    }
+}
+
+/* 768 en adelante */
+
+@media (min-width:768px) {
+    img {
+        width: 286px;
+        height: 286px;
+    }
+    img.pequeña{
+        width: 48px;
+        height: 48px;
+    }
+
+    img.mediana{
+        width: 286px;
+        height: 100px;
+    }
+
+    img.grande{
+        width: 768px;
+    }
+
+    img.friday{
+        width: 768px;
+        height: 100px;
+    }
+
+    footer {
+        margin-top: 1.5em;
+    }
+}
+
+/* 1024 en adelante */
+
+@media (min-width:1024px) {
+
+    img {
+        width: 325px;
+        height: 300px;
+    }
+    img.pequeña{
+        width: 48px;
+        height: 48px;
+    }
+
+    img.mediana{
+        width: 200px;
+        height: 100px;
+    }
+
+    img.grande{
+        width: 1024px;
+        height: 300px;
+    }
+    img.friday{
+        width: 1024px;
+        height: 100px;
+    }
+}
+
+/* Medida agregada por temas de mi monitor */
+@media (min-width:1920px) {
+    img.grande{
+        width: 1920px;
+    }
+
+    img.friday{
+        width: 1920px;
+        height: 100px;
+    }
+
+
+}
