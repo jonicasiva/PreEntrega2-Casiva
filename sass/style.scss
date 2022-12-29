@@ -31,14 +31,8 @@ ul li {
 }
 
 
-.box{
-    transition-property: all;
-    transition-duration: 1s;
-}
 
-.box:hover{
-    transform: scale(1.2);
-}
+
 
 .mediana{
     border: 0;
@@ -47,4 +41,15 @@ ul li {
 .display-1{
     font-size: 0%;
     margin-bottom: 0%;
+}
+
+.navbar-expand-lg{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row{
+    margin-left: calc(var(--bs-gutter-x) * 3.5);
+    justify-content: center;
 }

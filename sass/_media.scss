@@ -1,4 +1,36 @@
 /* 500 px en ADELANTE */
+
+@media(max-width:499px) {
+    img {
+        width: 286px;
+        height: 286px;
+    }
+    img.pequeña{
+        width: 48px;
+        height: 48px;
+    }
+
+    img.grande{
+        width: 499px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+    img.friday{
+        width: 499px;
+        height: 100px;
+    }
+
+    img.mediana{
+        width: 286px;
+        height: 100px;
+    }
+    
+    .barrasearch{
+        display: none;
+    }
+}
 @media(min-width:500px) {
     img {
         width: 286px;
@@ -24,6 +56,9 @@
     img.mediana{
         width: 286px;
         height: 100px;
+    }
+    .barrasearch{
+        display: none;
     }
 }
 
@@ -55,6 +90,11 @@
 
     footer {
         margin-top: 1.5em;
+    }
+
+    .barrasearch{
+        display: flex;
+        flex-direction: row;
     }
 }
 
