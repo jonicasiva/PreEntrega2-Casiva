@@ -218,9 +218,4 @@ ul li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.row {
-  margin-left: calc(var(--bs-gutter-x) * 3.5);
-  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
